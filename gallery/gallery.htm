@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gallery </title>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="gallery.js"></script>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+	<h1>This is gallery</h1>
+
+	<div id="gallery">
+		<div id="photos">
+	        <div id="photos_inner">	          
+	          <img alt="Apple" src="../images/thumbs/a.jpg" onclick="javascript:updateImage('a','Apple');"/>
+	          <img alt="Boy" src="../images/thumbs/b.jpg" onclick="javascript:updateImage('b','Boy');"/>
+	          <img alt="Egg" src="../images/thumbs/e.jpg" onclick="javascript:updateImage('e','Egg');"/>
+	          <img alt="Fly" src="../images/thumbs/f.jpg" onclick="javascript:updateImage('f','Fly');"/>
+	          <p></p>
+	          <img alt="Candy" src="../images/thumbs/c.jpg" onclick="javascript:updateImage('c','Candy');"/>
+	          <img alt="Dog" src="../images/thumbs/d.jpg" onclick="javascript:updateImage('d', 'Dog');"/>
+	          <img alt="Girl" src="../images/thumbs/g.jpg" onclick="javascript:updateImage('g', 'Girl');"/>
+	          <img alt="Hat" src="../images/thumbs/h.jpg" onclick="javascript:updateImage('h', 'Hat');"/>	          	          
+	        </div>
+	        <a id="previous" href="#">previous</a>
+			<a id="next" href="#">next</a>
+			<div id="product_code">Apple</div>
+     	</div>
+		<div id="photo_detail">
+			<img id="detail" src="../images/original/a.jpg" />
+		</div>
+	</div>
+	<p id="p1"></p>
+</body>
+</html>

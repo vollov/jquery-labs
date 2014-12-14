@@ -1,0 +1,61 @@
+p.striped {
+	background-color: cyan;
+}
+
+body {
+	border-style: solid;
+	border-width: 1px;
+	width: 731px;
+	height: 441px;
+}
+
+#gallery {
+	border-style: solid;
+	border-width: 1px;
+	width: 530px;
+	height: 330px;
+}
+
+#photos {
+	margin-top:5px;
+	margin-left:5px;
+	float: left;
+  	overflow: hidden;
+	width: 200px;
+}
+
+#previous {
+	margin-left:30px;
+	float: left;
+}
+#next {
+	margin-right:40px;
+	float: right;
+}
+
+#product_code {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 28px;
+    margin: 45px 0 -1px;
+    clear: both;
+}
+
+#photo_detail img {
+	margin: 10px;
+}
+
+#photos_inner {
+  height: 200px;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+#photos_inner img {
+  float: left;
+  margin: 5px;
+  width: 90px;
+  height: 90px;
+}
