@@ -1,0 +1,1 @@
+This example use bootstrap and jquery to show images 

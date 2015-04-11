@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gallery </title>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../lib/bootstrap.js"></script>
+<script type="text/javascript" src="album.js"></script>
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+	<h1>This is gallery</h1>
+
+	<div class="container">
+			<div id="original_photo" class="row">
+				<img id="detail" src="../images/original/a.jpg" />
+			</div>
+			<div class="row">
+				<div class="col-md-4"><img alt="Apple" src="../images/thumbs/a.jpg" onclick="javascript:updateImage('a','Apple');"/></div>
+  				<div class="col-md-4"><img alt="Boy" src="../images/thumbs/b.jpg" onclick="javascript:updateImage('b','Boy');"/></div>
+  				<div class="col-md-4"><img alt="Candy" src="../images/thumbs/c.jpg" onclick="javascript:updateImage('c','Candy');"/></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"><img alt="Dog" src="../images/thumbs/d.jpg" onclick="javascript:updateImage('d', 'Dog');"/></div>
+  				<div class="col-md-4"><img alt="Egg" src="../images/thumbs/e.jpg" onclick="javascript:updateImage('e','Egg');"/></div>
+  				<div class="col-md-4"> <img alt="Fly" src="../images/thumbs/f.jpg" onclick="javascript:updateImage('f','Fly');"/></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"><img alt="Girl" src="../images/thumbs/g.jpg" onclick="javascript:updateImage('g', 'Girl');"/></div>
+  				<div class="col-md-4"><img alt="Hat" src="../images/thumbs/h.jpg" onclick="javascript:updateImage('h', 'Hat');"/></div>
+  				<div class="col-md-4"></div>
+			</div>
+	</div>	
+</body>
+</html>
