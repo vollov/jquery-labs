@@ -1,0 +1,20 @@
+p.striped {
+	background-color: cyan;
+}
+
+body {
+	border-style: solid;
+	border-width: 1px;
+	width: 731px;
+	height: 441px;
+}
+
+
+.photos {
+  	overflow: hidden;
+	width: 500px;
+}
+
+.photos img {
+  position: absolute;
+}

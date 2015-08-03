@@ -1,0 +1,33 @@
+p.striped {
+	background-color: cyan;
+}
+
+body {
+	border-style: solid;
+	border-width: 1px;
+	width: 731px;
+	height: 441px;
+}
+
+#gallery {
+	border-style: solid;
+	border-width: 1px;
+	width: 530px;
+	height: 330px;
+}
+
+#photos {
+	margin-top:5px;
+	margin-left:5px;
+	float: left;
+  	overflow: hidden;
+	width: 500px;
+}
+
+#photos img {
+  display: none;
+}
+
+#photos .show {
+  display: inline;
+}
